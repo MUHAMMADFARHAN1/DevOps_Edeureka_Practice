@@ -12,5 +12,16 @@ allowed, otherwise browser access will not work
 5. For running the jobs on Jenkins controller, adjust the node memory and performance criterion:
 https://stackoverflow.com/questions/10325982/how-to-solve-jenkins-disk-space-is-too-low-issue
 
+6. We will perform java SDLC in our course so make sure that mvn is configured on the system use the following commands obtained form the other machine:
+
+sudo yum install maven
+mvn -version
+
+use following link: https://wiki.lyrasis.org/display/VIVO/Install+Apache+Maven+3.0.5
+
+   
+
 Note: Jenkins setup is important as later on it will be used for integrating with other
-components like ansible and Kubernetes as well.
+components like ansible and Kubernetes as well. As we have free tier account, all of our
+Ip address will change upon reset so bear that in mind. Also the focus here is on Jenkins
+system administration as well as java builds using maven.
