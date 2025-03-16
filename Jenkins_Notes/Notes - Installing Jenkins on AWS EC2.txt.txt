@@ -1,0 +1,16 @@
+1. Setup the instances on the EC2 as Jenkins_Master with free tier so that no money is charged.
+
+2. Install JDK 17 on Amazon Linux, use the following link for it:
+   https://tecadmin.net/install-java-on-amazon-linux/
+
+3. Install Jenkins on Amazon Linux with the following link for it:
+   https://phoenixnap.com/kb/how-to-install-jenkins-on-centos-8
+
+4. Change EC2 security group to ensure for practice that all inbound and outbound traffic is 
+allowed, otherwise browser access will not work
+
+5. For running the jobs on Jenkins controller, adjust the node memory and performance criterion:
+https://stackoverflow.com/questions/10325982/how-to-solve-jenkins-disk-space-is-too-low-issue
+
+Note: Jenkins setup is important as later on it will be used for integrating with other
+components like ansible and Kubernetes as well.
