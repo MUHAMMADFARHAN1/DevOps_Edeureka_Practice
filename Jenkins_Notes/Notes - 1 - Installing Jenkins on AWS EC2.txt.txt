@@ -1,4 +1,4 @@
-1. Setup the instances on the EC2 as Jenkins_Master with free tier so that no money is charged.
+1. Setup the instance on the EC2 as Jenkins_Master with free tier so that no money is charged.
 
 2. Install JDK 17 on Amazon Linux, use the following link for it:
    https://tecadmin.net/install-java-on-amazon-linux/
